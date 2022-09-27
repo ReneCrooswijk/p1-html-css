@@ -6,6 +6,12 @@
 html {
   font-size: 62.5%;
 }
+
+main {
+  background-color: black;
+  color: white;
+}
+
 body {
   font-family: "Goldman", cursive;
 }
@@ -20,6 +26,7 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
 }
 nav ul {
   display: flex;
@@ -37,8 +44,16 @@ nav a {
 nav img {
   width: 5vw;
 }
-main {
-  color: white;
-  background-color: black;
-  font-size: medium;
+
+header {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  background: #00a8c7;
+  text-align: center;
+  font-size: 1.5vw;
 }
