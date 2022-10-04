@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    background: #b8b8b8;
+    justify-content: space-around;
+}
+
+.item1 {
+    width: 200px;
+    height: 200px;
+    background: darkgreen;
+    margin: 10px;
+    color: #fff;
+}
+
+.item2 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin: 10px;
+    color: #fff;
+}
+
+.item3 {
+    width: 200px;
+    height: 200px;
+    background: black;
+    margin: 10px;
+    color: #fff;
+}
+
+.item4 {
+    width: 200px;
+    height: 200px;
+    background: #254de4;
+    margin: 10px;
+    color: #fff;
+}
