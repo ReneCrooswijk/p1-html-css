@@ -1,0 +1,11 @@
+
+* {
+    text-decoration: none;
+    margin: 10;
+    font-size: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
