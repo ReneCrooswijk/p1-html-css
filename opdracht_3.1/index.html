@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<main lang="en">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,59 +13,106 @@
     <link rel="stylesheet" href="style.css" />
     <title>Opdracht 3</title>
   </head>
-  <body>
-    <nav>
+  
+      <nav>
       <img src="./img/hacker.png" id="logo" />
-        <ul>
-        <li><a href="#">HTML/CSS</a></li>
-        <li><a href="#">Javascript</a></li>
-        <li><a href="#">PHP</a></li>
-        <li><a href="#">SQL</a></li>
-        <li id="dropdown"><a href="#">Jaar 2</a></li>
+      <ul>
+        <li><a href="Basiscode.html">HTML/CSS</a></li>
+        <li><a href="javascript.html">Javascript</a></li>
+        <li><a href="php.html">PHP</a></li>
+        <li><a href="sql.html">SQL</a></li>
+      <ul class="dropdown">
+        <li class="dropbtn">Jaar 2</li>
+        <div class="dropdown-content">
+          <a href="#">OOP</a>
+          <a href="#">Laravel</a>
+          <a href="#">Testen</a>
+        </div>
       </ul>
-    </nav>
-    <main>
-      <header>
-    <h1>First year TCR Programming Languages</h1>
-    </header>
+        </section>
+      </nav>
+      
+        
+  
+    <body>
     <header>
-    <h2>HTML/CSS</h2>
-  </header>
-  <img class="img1" src="./img/001.png"/> 
-  <p class="txt1">
-    Lorem ipsum  dolor sit amet, consectetur adipiscing elit. Vivamua in velit placerat magna pulvinar portasit amet vel purus. Suspendisse potenti. Maecenas eu purus pharetra, efficitur lorem eget, facilisis risus. Proin pretium orci bibendumblandit tempor. Fusce lacina nisi quis iaculis cursus. Donec vehicula nisi eget orci pharetra, semper scelerisque nulla varius. Etiam uteros in libero codnimentum aliquet non quis leo. Pellentesque sit amet fermentum sem in ditcum leo.
-  </p>
-    <header>
-    <h2>
-      Javascript
-    </h2>
-  </header>
-   <img src="./img/002.png" height="300" width="300"/>
-   <p>
-    Lorem ipsum  dolor sit amet, consectetur adipiscing elit. Vivamua in velit placerat magna pulvinar portasit amet vel purus. Suspendisse potenti. Maecenas eu purus pharetra, efficitur lorem eget, facilisis risus. Proin pretium orci bibendumblandit tempor. Fusce lacina nisi quis iaculis cursus. Donec vehicula nisi eget orci pharetra, semper scelerisque nulla varius. Etiam uteros in libero codnimentum aliquet non quis leo. Pellentesque sit amet fermentum sem in ditcum leo.
-   </p>
-   <header>
-   <h2>PHP</h2>
-  </header>
-    <img src="./img/003.png"
-    <p>
-      Lorem ipsum  dolor sit amet, consectetur adipiscing elit. Vivamua in velit placerat magna pulvinar portasit amet vel purus. Suspendisse potenti. Maecenas eu purus pharetra, efficitur lorem eget, facilisis risus. Proin pretium orci bibendumblandit tempor. Fusce lacina nisi quis iaculis cursus. Donec vehicula nisi eget orci pharetra, semper scelerisque nulla varius. Etiam uteros in libero codnimentum aliquet non quis leo. Pellentesque sit amet fermentum sem in ditcum leo.
-    </p>
-      <header>
-      <h2>
-        SQL
-      </h2>
-    </header>
-    <img src="./img/004.png" height="175" width="300"
-    <p>
-      Lorem ipsum  dolor sit amet, consectetur adipiscing elit.
-       Vivamua in velit placerat magna pulvinar portasit amet vel purus. Suspendisse potenti. Maecenas eu purus pharetra, efficitur lorem eget, facilisis risus. Proin pretium orci bibendumblandit tempor. Fusce lacina nisi quis iaculis cursus. Donec vehicula nisi eget orci pharetra, semper scelerisque nulla varius. Etiam uteros in libero codnimentum aliquet non quis leo. Pellentesque sit amet fermentum sem in ditcum leo.
-    </p>
-  </main>
+ 
+    <h1>First Year Tcr<br> Programming Languages</h1> 
+
+  
+   </header>
+    <section>
+    <h2 class="center_big">HTML en CSS</h2>
+    <p class="rechter_position">
+      HTML en CSS zijn een<br>
+      van de belangrijkste onderdelen in heel je website.<br>
+      In het algemeen dan HTML.<br>
+      De code is net een menselijk<br>
+      lichaam de html is opbouw
+      je skelet, en dan zal css de<br>
+      huid het uiterlijk en alles <br>
+     wat er qua kleur is laat zijn.
+     CSS is zo een mooi element omdat<br>
+     je het kan gebruiken om <br>
+     kleuren en groottes of zelfs<br>
+      posities van Text kan wijzigen. </p>
+<img class="image_left" src="./img/001.png" alt="HTML EN CSS"> 
+    </section>
+<section>
+<h2 class="center_big">Javascript</h2>
+<p class="text_left">
+  Javascript geeft je website FUNCTIES<br>
+   die je website kunnen verbeteren<br>
+    met als een voorbeeld een pop<br>
+     up animatie.<br>
+Daarnaast wordt javascript<br>
+ veel gebruikt voor games of<br>
+  mischien zelfs apps of programmas.<br>
+Als je je website een beetje interactie<br>
+ wil geven dan zal je dit moieten toepassen<br>
+  in een HTML bestand.</p>
+
+<img class="image_right" src="./img/002.png" alt="javascript">
+</section>
+
+<section>
+    <h2 class="center_big">PHP</h2>
+    <p class="rechter_position2">PHP is een scripttaal die<br>
+       verbonden is aan de server<br>
+        die ervoor kan zorgen dat<br>
+         er data wordt verzameld<br>
+          of cookiess worden verstuurd.<br>
+    Als een voorbeeld van deze scenario<br>
+     kan je een welkom script maken met<br>
+      php die ervoor zorgt dat ieder keer<br>
+       als iemand deze website bezoekt <br>
+  Er een berichtje wodt gestuurd naar de<br>
+   server van je website met php. php<br>
+   \ staat origineel voor:Personal Home Page Tools.</p>
+
+<img class="image_left" src ="./img/003.png" alt="PHP">
+</section>
+<section>
+    <h2 class="center_big">SQL</h2>
+    <p class="text_left">
+
+    Mysql is een programma waar de mogelijkheden<br>
+     van saves wachtwoordenlijsten en datategenkomt.<br>
+    Als je Mysql gebruikt op je webiste kan je<br>
+     bijvoorbeeld je blogpagina opslaan of een<br>
+      youtube video posten zonder dat ie weg gaat.<br>
+  Dit wordt ook gebruikt om accountgegevens in op<br>
+   te slaan met als voorbeeld dus ook hoe de wachtwoord<br>
+    vergeten functie werkt.</p>
+  <br>
+  <img class="image_right" src="./img/004.png" alt="Mysql">
+
+  </section>
   <footer>
-    <p>
-      Copyright Techniek College Rotterdam
-    </p>
-  </footer>
+    <h3>Copyright Techniekcollege Rotterdam</h3>
+    </footer>
+    
+
+
   </body>
 </html>
