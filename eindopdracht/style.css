@@ -1,0 +1,667 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@media only screen and (min-width: 1200px){
+* {
+    margin:0px;
+    overflow-x: hidden;
+    
+    
+   
+}
+.hoofdfont {
+   position: relative;
+    font-family: "Pattaya";
+    margin:2rem;
+    color: white;
+    left:3rem;
+    font-size: 1.6em;
+}
+
+.navbar {
+    position: fixed;
+    display:flex;
+    background-color:#131c27;
+    z-index: 3;
+}
+.menu ul  {
+    display:flex;
+ flex-direction: row;
+ margin-left:60rem
+ 
+
+}
+
+
+li {
+    color:white;
+    list-style: none;
+    margin:2rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins";
+    font-size:1em;    
+    font-weight: bold;
+    
+
+}
+
+
+.background {
+  
+    background-image: url("./images/landing-page.jpg");
+    background-size: cover;
+ height:52rem;
+   z-index: 1;
+}
+.background2 {
+  
+    background: url("./images/new-york-page.png"), linear-gradient(rgb(124, 124, 124), rgb(248, 248, 248));
+    background-size: cover;
+ height:60rem; 
+ position: relative;
+ bottom: 20rem;
+ 
+ 
+
+}
+
+
+
+.hoofd {
+    position: relative;
+    bottom:30rem;
+    left:37rem;
+    color: white;
+    font-family: "Poppins";
+    font-size:2em;
+    
+}
+
+.main1 {
+    text-align: center;
+    position: relative;
+    bottom:28rem;
+    color: white;
+    font-size:1.6em;
+    font-family: "Poppins";
+    
+}
+.buttonbook {
+    color:white;
+    border: none;
+    background-color: #4c6e97;
+    position:relative;
+    bottom:26rem;
+    font-size: 1.2em;
+    left:38rem;
+    font-family: "Poppins";
+    width:20rem;
+    height:4rem;
+
+}
+
+.buttonbook:hover {
+    background-color: #4c6e78;
+
+}
+
+.heading2 {
+    position: relative;
+    font-family: "Poppins";
+    bottom:50rem;
+    left:5rem;
+    border-bottom:black ;
+    border: 3px;
+    font-size: 3em;
+    text-decoration: underline;
+    color:white
+}
+.main2 {
+    font-family: "Poppins";
+    position: relative;
+    bottom:48rem;
+    left:5rem;
+    font-size:1.4em;
+    color:white;
+}
+
+body {
+    min-height: 80vh;;
+}
+
+
+
+.top3 {
+    background-color:#131c27;
+    font-family: "Poppins";
+    color: white;
+    position: relative;
+    bottom:29rem;
+    height:27vh
+}
+
+.top3 h2 {
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+    top:2rem
+}
+
+.top3 p {
+    font-size: 1.5rem;
+    text-align:center;
+    position: relative;
+    top:3rem
+}
+
+.box1, .box2, .box3 {
+    
+    height:50vh;
+    width:20vw;
+}
+
+.box1 {
+    /* position: relative;
+    bottom:25rem;
+    left:8rem; */
+box-shadow: 0px 10px 20px #909090;
+}
+.box2 {
+    /* position: relative;
+    bottom:48.3rem;
+    left:35rem; */
+    box-shadow: 0px 10px 20px #909090;
+
+
+}
+.box3 {
+    /* position: relative;
+bottom:71.5rem;
+    left:64rem; */
+    box-shadow: 0px 10px 20px #909090 ;
+}
+
+.box1 header {
+    background-color:#131c27;
+    height:7rem;
+}
+
+.box2 header {
+    background-color:#131c27;
+    height:7rem;
+}
+
+.box3 header {
+    background-color:#131c27;
+    height:7rem;
+}
+
+/* .box1 header img {
+  
+    display:flex;
+    justify-content: center;
+} */
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: absolute;
+    top: 232vh;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Poppins";
+}
+.box1 header img {
+    height:10vh;
+    width: 10vw;
+    position: relative;
+    left:4.5rem;
+    top:1rem
+}
+
+.box2 header img {
+    height:10vh;
+    width: 10vw;
+    position: relative;
+    left:4.5rem;
+    top:1rem
+}
+
+.box3 header img {
+    height:10vh;
+    width: 10vw;
+    position: relative;
+    left:4.5rem;
+    top:1rem
+}
+
+.boxes h2 {
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top:1rem
+}
+.boxes p {
+    position: relative;
+    top:2rem;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.background3 {
+    background: url("./images/contact-mountain.png"), linear-gradient(rgb(124, 124, 124), rgb(248, 248, 248));
+    height:100vh;
+    background-size: cover;
+    position: relative;
+    
+}
+.buttonsection {
+    height:55vh;
+    width:60vw;
+  
+    background-color:#131c2795;
+    position: relative;
+    top:15rem;
+    left:17rem;
+   border-radius: 10px;
+   font-family: "Poppins";
+   color: white;
+   display:flex;
+}
+
+.buttonflex {
+    height:55vh;
+    width:60vw;
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   font-size: 2em;
+   justify-content: space-evenly;
+ 
+}
+.buttonflex input {
+font-size: 0.8em;
+margin-bottom: 3rem;
+}
+
+label {
+  
+    font-size:0.7em
+}
+    
+.finale {
+    border-bottom-left-radius: 10px 5px;
+    border-bottom-right-radius: 10px 5px;
+    background-color: #4c6e97;
+    width:60vw;
+    border: none;
+    color:white;
+    height:3rem;
+    position:relative;
+    top:3.7rem;
+
+   
+}
+
+
+.end {
+    display:flex;
+    height: 12vh;
+    background-color:#131c27;
+    color:white;
+    font-family: "Poppins";
+  align-items: center;
+ 
+}
+
+.end h2 {
+    margin-left: 7rem;
+}
+
+.icons {
+   margin-left: 10rem;
+   display: flex;
+}
+
+.icont, .icony, .iconi {
+    display: flex;
+   margin-left: 20rem;
+}
+}
+@media only screen and (max-width: 600px) {
+    * {
+        margin:0px;
+        overflow-x: hidden;}
+   
+
+    .hoofdfont {
+        position: relative;
+         font-family: "Pattaya";
+         margin:2rem;
+         color: white;
+         left:1rem;
+         font-size: 1.3em;
+     }
+
+
+.navbar {
+    position: fixed;
+    display:flex;
+    background-color:#131c27;
+    z-index: 3;
+}
+.menu ul  {
+    display:flex;
+ flex-direction: row;
+ margin-left:1px
+ 
+
+}
+
+
+li {
+    color:white;
+    list-style: none;
+    margin:1.6rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins";
+    font-size:0.8em;    
+    font-weight: bold;
+    
+
+}
+
+
+.background {
+  
+    background-image: url("./images/landing-page.jpg");
+    background-size: cover;
+ height:52rem;
+   z-index: 1;
+   background-position: -70vh 0 ;
+   
+}
+.background2 {
+  
+    background: url("./images/new-york-page.png"), linear-gradient(rgb(124, 124, 124), rgb(248, 248, 248));
+    background-size: cover;
+ height:60rem; 
+ position: relative;
+ bottom: 20rem;
+ background-position: -70vh 0 ;
+ 
+ 
+
+}
+
+
+
+.hoofd {
+    position: relative;
+    bottom:30rem;
+    left:4rem;
+    color: white;
+    font-family: "Poppins";
+    font-size:2em;
+    
+}
+
+.main1 {
+    text-align: center;
+    position: relative;
+    bottom:28rem;
+    color: white;
+    font-size:1.6em;
+    font-family: "Poppins";
+    
+}
+.buttonbook {
+    color:white;
+    border: none;
+    background-color: #4c6e97;
+    position:relative;
+    bottom:26rem;
+    font-size: 1.2em;
+    left:5rem;
+    font-family: "Poppins";
+    width:20rem;
+    height:4rem;
+
+}
+
+.buttonbook:hover {
+    background-color: #4c6e78;
+
+}
+
+.heading2 {
+    position: relative;
+    font-family: "Poppins";
+    bottom:50rem;
+    left:5rem;
+    border-bottom:black ;
+    border: 3px;
+    font-size: 2.5em;
+    text-decoration: underline;
+    color:white
+}
+.main2 {
+    font-family: "Poppins";
+    position: relative;
+    bottom:48rem;
+    left:1rem;
+    font-size:1.2em;
+    color:white;
+    text-align: center;
+}
+
+body {
+    min-height: 80vh;;
+}
+
+
+
+.top3 {
+    background-color:#131c27;
+    font-family: "Poppins";
+    color: white;
+    position: relative;
+    bottom:29rem;
+    height:27vh
+}
+
+.top3 h2 {
+    font-size: 1.5em;
+    text-align: center;
+    position: relative;
+    top:2rem
+}
+
+.top3 p {
+    font-size: 1.2rem;
+    text-align:center;
+    position: relative;
+    top:3rem
+}
+
+.box1, .box2, .box3 {
+    
+    height:40vh;
+    width:30vw;
+    position: relative;
+    top:10rem
+}
+
+.box1 {
+     
+box-shadow: 0px 10px 20px #909090;
+}
+.box2 {
+    
+     
+    box-shadow: 0px 10px 20px #909090;
+    
+
+}
+.box3 {
+    
+    box-shadow: 0px 10px 20px #909090 ;
+}
+
+.box1 header {
+    background-color:#131c27;
+    height:5rem;
+}
+
+.box2 header {
+    background-color:#131c27;
+    height:5rem;
+}
+
+.box3 header {
+    background-color:#131c27;
+    height:5rem;
+}
+
+/* .box1 header img {
+  
+    display:flex;
+    justify-content: center;
+} */
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: absolute;
+    top: 232vh;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Poppins";
+}
+.box1 header img {
+    height:8vh;
+    width: 8vw;
+    position: relative;
+    left:4.5rem;
+    top:1rem
+}
+
+.box2 header img {
+    height:8vh;
+    width: 8vw;
+    position: relative;
+    left:4.5rem;
+    top:1rem
+}
+
+.box3 header img {
+    height:8vh;
+    width: 8vw;
+    position: relative;
+    left:4.5rem;
+    top:1rem
+}
+
+.boxes h2 {
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top:1rem
+}
+.boxes p {
+    position: relative;
+    top:2rem;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.7em;
+}
+.background3 {
+    background: url("./images/contact-mountain.png"), linear-gradient(rgb(124, 124, 124), rgb(248, 248, 248));
+    height:100vh;
+    background-size: cover;
+    position: relative;
+    background-position: -70vh 0 ;
+    
+}
+.buttonsection {
+    height:55vh;
+    width:60vw;
+  
+    background-color:#131c2795;
+    position: relative;
+    top:15rem;
+    left:7rem;
+   border-radius: 10px;
+   font-family: "Poppins";
+   color: white;
+   display:flex;
+}
+
+.buttonflex {
+    height:55vh;
+    width:60vw;
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   font-size: 1.5em;
+   justify-content: space-evenly;
+ 
+}
+.buttonflex input {
+font-size: 0.5em;
+margin-bottom: 3rem;
+}
+
+label {
+  
+    font-size:0.7em
+}
+    
+.finale {
+    border-bottom-left-radius: 10px 5px;
+    border-bottom-right-radius: 10px 5px;
+    background-color: #4c6e97;
+    width:60vw;
+    border: none;
+    color:white;
+    height:3rem;
+    position:relative;
+    top:3.7rem;
+
+   
+}
+
+
+.end {
+    display:flex;
+    height: 12vh;
+    background-color:#131c27;
+    color:white;
+    font-family: "Poppins";
+  align-items: center;
+ 
+}
+
+.end h2 {
+    margin:1rem
+ }
+
+
+.icons {
+    margin-left:7rem;
+}
+.icont, .icony, .iconi  {
+    margin-left:3rem;
+}
+
+}

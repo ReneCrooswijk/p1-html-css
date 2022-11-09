@@ -6,12 +6,6 @@
 html {
   font-size: 62.5%;
 }
-
-main {
-  background-color: black;
-  color: white;
-}
-
 body {
   font-family: "Goldman", cursive;
 }
@@ -26,7 +20,7 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
-  position: fixed;
+  z-index: 1;
 }
 nav ul {
   display: flex;
@@ -44,16 +38,94 @@ nav a {
 nav img {
   width: 5vw;
 }
-
 header {
-  text-align: center;
+  background-image: url("./img/background-image.jpg");
+  color:white;
+
+}
+h1 {
+  text-align:center;
+  font-size:5em;
+  position:relative;
+  top:80rem
+}
+body {
+  background-color: black;
+  
+}
+p {
+  color:white
+}
+h2 {
+  color:white
 }
 
-footer {
-  width: 100%;
-  padding: 2rem;
-  min-height: 10vh;
-  background: #00a8c7;
+
+header {
+  
+  background-image:url("aardappel.jpg");
+  width:100vw;
+  height: 130vh;
+  background-size: cover;
+}
+
+
+.center_big {
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 5em;
+}
+.rechter_position {
+  position: relative;
+  left: 80rem;
+ top: 10rem;
+  font-size:2em
+  
+}
+
+.image_left {
+  width: 30vw;
+  height: 50vh;
+  position: relative;
+  top: -25rem;
+}
+body {
+  overflow-x: hidden;
+}
+.rechter_position2 {
+  position: relative;
+  left: 82rem;
+ top: 10rem;
+  font-size:2em
+}
+section {
+  width: 100vw;
+  height: 100vh;
+}
+footer {
+  background-color:#00a8c7;
+  color:white;
+  text-align:center;
+  font-size: 2rem;
+  padding: 2rem;
+}
+nav {
+  position:fixed;
+  top:0;
+}
+.image_right {
+
+  position: relative;
+  left: 100rem;
+  width: 40rem;
+  height: 40rem;
+  top: -20rem;
+
+
+}
+
+.text_left {
+  font-size: 2em;
+  position:relative;
+top: 15rem;
+left: 15rem;
 }
