@@ -40,6 +40,85 @@
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     nav {
       background-color: red;
-      flex-direction: center;
+      padding-left: 2rem;
+      padding-bottom: 0.5rem;
+      padding-top: 0.5rem;
     }
+
+    h1 {
+      text-align-last: center;
+      color: white;
+    }
+
+    .div2 {
+      background-color: crimson;
+      padding-top: 1rem;
+      padding-bottom: 6rem;
+    }
+
+    .div3 {
+      background-color: blue;
+      padding-top: 1rem;
+      padding-bottom: 6rem;
+    }
+
+    .div4 {
+      background-color: darkblue;
+      padding-top: 1rem;
+      padding-bottom: 6rem;
+    }
+
+    h2 {
+      padding-top: 0rem;
+      color: white;
+      padding-left: 1rem;
+    }
+
+    p {
+      color: white;
+      padding-left: 1rem;
+    }
+
   }
+
+    @media screen and (max-width: 767px) {
+
+    nav {
+    background-color: lightblue;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  h1 {
+    color: white;
+    padding-bottom: 1.5rem;
+  }
+
+  h2 {
+    color: white;
+    text-align: center;
+  }
+
+  .div2 {
+    background-color: teal;
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .div3 {
+    background-color: pink;
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .div4 {
+    background-color: grey;
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+  }
+
+  p {
+    color: white;
+  }
+
+}

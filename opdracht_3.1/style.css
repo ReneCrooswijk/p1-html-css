@@ -129,3 +129,8 @@ nav {
 top: 15rem;
 left: 15rem;
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
